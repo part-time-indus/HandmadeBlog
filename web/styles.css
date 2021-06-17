@@ -2,7 +2,8 @@
 @import url(./fontawesome-free-5.15.3-web/css/all.css);
 @import url(./html_components/navbar/navbar.css);
 @import url(./html_components/searchbox/searchbox.css);
-
+@import url(./html_components/popular_blog/popular_blog.css);
+@import url(./html_components/recent_blog/recent_blog.css);
 html, body{
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
@@ -13,20 +14,46 @@ html, body{
   padding: 0;
   box-sizing: border-box;
 }
+a, a:hover, a:visited, a:active{
+  text-decoration: none;
+}
 
 h1{
   font-size: 2.4rem;
 }
-a, label{
-  font-size: 1.6rem;
+a, label, span{
+  font-size: 1.3rem;
 }
 
 #header{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 10rem;
-  width: auto;
+  width: 90%;
+  margin: auto;
+}
+
+#main{
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+#popular_blogs{
+  background: radial-gradient(farthest-corner ellipse at 50% 70%,#f5eaa5 0%, #f5eaa5 10%, #f0e9ba 20%, 
+              #ece7c4 30%, #f7f4e1 40%, #f5f4ee 50%, #f5f4f1 60%,#ffffff 80% );
+
+  margin-left: 10rem;
+}
+
+#recent_blogs{
+  margin-top: 3.5rem;
 }

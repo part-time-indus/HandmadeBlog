@@ -1,0 +1,16 @@
+.recent_blog{
+    width: 100%;
+}
+h2.recent_blog_heading{
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    letter-spacing: 0.3;
+    border-bottom: .2rem solid black;
+    margin-bottom: 1.2rem;
+}
+.recent_blog{
+    flex: 1;
+    flex-basis: 30vw;
+    font-size: 1.5rem;
+}

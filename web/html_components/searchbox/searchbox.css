@@ -3,30 +3,36 @@
     margin-top: .10rem;
 }
 .input {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:0;
+    transform: translate(-100%,-50%);
     padding: 2rem;
     width: 3rem;
     height: 3rem;
     background: none;
-    border: 0.2rem solid #ffd52d;
+    /* FFF084, ffd52d */
+    border: 0.2rem solid #272133;
     border-radius: 5rem;
     box-sizing: border-box;
     font-size: 1.6rem;
-    color: #ffd52d;
+    color: #272133;
     outline: none;
     transition: .5s;
 }
 .search:hover input{
     width: 20rem;
-    background: #272133;
-    border-radius: 1rem;
+    background: #fff090;
+    border: 0.5rem solid #fff090;
 }
 i{
     position: absolute;
-    top: 2.2rem;
-    right: 0.9rem;
-    transform: translate(-50%,-50%);
+    top: 0;
+    right: 0;
+    transform: translate(-110%,-50%);
     font-size: 1.3rem;
-    color: #ffd52d;
+    color: #272133;
     transition: .5s;
 }
 .search:hover i{

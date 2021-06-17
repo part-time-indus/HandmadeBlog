@@ -1,5 +1,7 @@
-const navbar = '''<a href="#" class="btn">Blog</a>
+const navbar = '''<div class="navbar">
+<a href="#" class="btn">Blog</a>
 <a href="#" class="btn">Books</a>
 <a href="#" class="btn">Learning</a>
 <a href="#" class="btn">Contact</a>
+</div>
 ''';
