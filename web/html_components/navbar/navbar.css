@@ -1,0 +1,24 @@
+.btn{
+    display:inline-block;
+    color:#ffd52d;
+    background:#272133;
+    padding:1rem 1rem;
+    font-size:1.5rem,;
+    text-decoration:none;
+    letter-spacing:.2rem;
+    text-transform:uppercase;
+    transition: 1s;
+  }
+
+  /* .btn + .btn{
+    margin-left: 0.2rem;
+  }
+   */
+  .btn:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#ffd52d;
+    transform: scale(1.1);
+    color:#272133;
+  }
+  
