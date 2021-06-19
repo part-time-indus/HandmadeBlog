@@ -1,0 +1,21 @@
+.recent_blogs{
+    flex: 1;
+    flex-basis: 30vw;
+    font-size: 1.5rem;
+    /* width: 100%; */
+    .recent_blogs_heading{
+        display: inline-block;
+        font-size: 2.2rem;
+        line-height: 1.2;
+        letter-spacing: 0.3;
+        border-bottom: .2rem solid $secondary-color;
+        margin-bottom: 1.2rem;
+    }
+    .blog_intro a{
+        color: $secondary-color;
+    }
+}
+
+
+
+

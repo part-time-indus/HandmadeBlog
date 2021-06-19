@@ -15,6 +15,7 @@ class SearchBox {
     throttle = StreamTransformer.fromHandlers(handleData: _throttleStream);
     input?.onMouseOver.transform(throttle!).listen((event) {
       input?.placeholder = 'Search posts here.';
+      input?.focus();
     });
     input?.onMouseLeave.transform(throttle!).listen((event) {
       input?.value = '';

@@ -1,0 +1,22 @@
+.navbar{
+    padding-right: 10rem;
+    .nav_link{
+      display:inline-block;
+      color: $primary-color;
+      background: $secondary-color;
+      padding:1rem 1rem;
+      font-size:1.5rem,;
+      letter-spacing:.2rem;
+      text-transform:uppercase;
+      transition: 1s;
+      
+      &:hover{
+        border:none;
+        background:rgba(0, 0, 0, 0.4);
+        background: $primary-color;
+        transform: scale(1.1);
+        color: $secondary-color;
+      }
+    }
+}
+    

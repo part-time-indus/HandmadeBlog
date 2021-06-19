@@ -1,0 +1,41 @@
+.search{
+    position: relative;
+    margin-top: .10rem;
+    .input {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left:0;
+        transform: translate(-100%,-50%);
+        padding: 2rem;
+        width: 3rem;
+        height: 3rem;
+        background: none;
+        /* FFF084, ffd52d */
+        border: 0.2rem solid $secondary-color;
+        border-radius: 5rem;
+        box-sizing: border-box;
+        font-size: 1.6rem;
+        color: $secondary-color;
+        outline: none;
+        transition: .5s;
+    }
+    i{
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-110%,-50%);
+        font-size: 1.3rem;
+        color: $secondary-color;
+        transition: .5s;
+    }
+    &:hover input{
+        width: 20rem;
+        background: $primary-color;
+        border: 0.5rem solid $primary-color;
+    }
+    &:hover i{
+        opacity: 0;
+        z-index: -1;
+    }
+}
